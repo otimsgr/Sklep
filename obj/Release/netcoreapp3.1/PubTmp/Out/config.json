@@ -1,0 +1,21 @@
+{
+  "Colors": {
+    "Favorite": "Blue"
+  },
+  "ConnectionStrings": {
+    "DutchConnectionString": "Data Source=(localdb)\\MSSQLLocalDB;Database=ASP-BigJigSaw;Integrated Security=True;MultipleActiveResultSets=true;"
+ 
+  },
+  "Logging": {
+    "LogLevel": {
+      "Default": "Information",
+      "Microsoft": "Information",
+      "Microsoft.EntityFrameworkCore":  "Warning"
+    }
+  },
+  "Tokens": {
+    "Key": "a;sdlkfja; lsdkfj ;alksdfj ;alksdfj; aiefj;lskij;fldsk",
+    "Issuer": "localhost",
+    "Audience":  "localhost"
+  }
+}

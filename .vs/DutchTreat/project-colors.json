@@ -1,0 +1,21 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "9982f986-e279-4f54-811e-234e284c9373": {
+      "ProjectGuid": "9982f986-e279-4f54-811e-234e284c9373",
+      "DisplayName": "DutchTreat",
+      "ColorIndex": 0
+    },
+    "303ce7e7-df9c-49a8-8ea2-3013fa8ae3fd": {
+      "ProjectGuid": "303ce7e7-df9c-49a8-8ea2-3013fa8ae3fd",
+      "DisplayName": "DutchTreat.Test",
+      "ColorIndex": 1
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
+    }
+  },
+  "NextColorIndex": 2
+}

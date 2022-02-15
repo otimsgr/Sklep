@@ -1,0 +1,33 @@
+﻿<h3>Koszyk</h3>
+<div>Ilosc produktow:  {{ store.order.items.length }}</div>
+<table class="table table-condensed table-striped">
+  <thead>
+    <tr>
+      <td></td>
+      <td>Produkt</td>
+      <td>Ilość</td>
+      <td>Cena</td>
+      <td>Razem</td>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let item of store.order.items">
+      <td>
+        <img src="/img/{{ item.productArtId }}.jpg" alt="{{ item.title }}" class="img-fluid product-thumb" />
+      </td>
+      <td>{{ item.productCategory }}</td>
+      <td>{{ item.quantity }}</td>
+      <td>{{ item.unitPrice }} PLN</td>
+      <td>{{ (item.quantity * item.unitPrice) }} PLN</td>
+    </tr>
+  </tbody>
+  <tfoot>
+    <tr>
+      <td colspan="4" class="text-right">Razem</td>
+      <td>{{ store.order.subtotal() }} PLN</td>
+    </tr>
+  </tfoot>
+
+</table>
+
+<a class="btn btn-success" *ngIf="store.order.items.length > 0" routerLink="/checkout">Kasa</a>

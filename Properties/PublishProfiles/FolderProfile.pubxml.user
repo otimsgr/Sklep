@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <_PublishTargetUrl>C:\Users\otimSGr\Desktop\ddd</_PublishTargetUrl>
+    <History>True|2022-02-11T09:50:52.2336269Z;True|2022-02-10T23:52:09.2922907+01:00;True|2022-02-10T23:37:20.5574109+01:00;True|2022-02-10T22:52:00.1337273+01:00;True|2022-02-10T22:50:17.5818023+01:00;True|2022-02-10T22:43:44.5123825+01:00;True|2022-02-10T22:15:20.9083100+01:00;False|2022-02-10T22:14:36.4277896+01:00;True|2022-02-10T22:12:32.3637351+01:00;False|2022-02-10T22:10:35.7899149+01:00;False|2022-02-10T22:09:29.3670114+01:00;False|2022-02-10T22:06:49.2556643+01:00;False|2022-02-10T22:02:32.9424315+01:00;</History>
+  </PropertyGroup>
+</Project>
